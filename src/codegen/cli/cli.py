@@ -21,8 +21,8 @@ from codegen.cli.commands.start.main import start_command
 from codegen.cli.commands.style_debug.main import style_debug_command
 from codegen.cli.commands.update.main import update_command
 
-click.rich_click.USE_RICH_MARKUP = True
-install(show_locals=True)
+click.rich_click.USE_RICH_MARKUP = False
+#install(show_locals=True)
 
 
 @click.group()
